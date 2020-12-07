@@ -31,7 +31,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -127,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "namazvakti"
+  "defaultProject": "namazvakti",
+  "cli": {
+    "analytics": "a80d10be-0336-4dda-a50c-f0a2cc1c545d"
+  }
 }
